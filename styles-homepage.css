@@ -1,0 +1,124 @@
+/* Basic Designs */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Designs for the top bar */
+header {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 75px;
+}
+
+header .logo img {
+    width: 200px;
+}
+
+header .cart img {
+    width: 50px;
+    height: 60px;
+    margin-left: 1500px;
+    margin-top: -150px;
+}
+
+header .menu img{
+    scale: 25%;
+    margin-left: 1350px;
+    margin-top: -110px;
+}
+/* Showcase Designs for the middle bar */
+.showcase {
+    background-color: #f0f0f0;
+    height: 400px;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.showcase h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #9381FF
+}
+
+.showcase .specialproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.showcase .specialproduct img {
+    width: 750px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.showcase .specialproduct .productinfo {
+    text-align: left;
+}
+
+.showcase .specialproduct .productinfo h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.showcase .specialproduct .productinfo .price {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Special Products showcase designs */
+.specials {
+    padding: 20px;
+    text-align: center;
+}
+
+.specials h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #9381FF
+}
+
+.specials input {
+    padding: 10px;
+    width: 86%;
+    margin-bottom: 20px;
+    border-color: #9381FF;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.specials .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.specials .product {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.specials .product img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+.footer-content {
+    display: flex;
+    justify-content: center;
+}

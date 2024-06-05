@@ -1,0 +1,126 @@
+/* Basic Designs */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Designs for the Top bar */
+header {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 75px;
+}
+
+header .logo img {
+    width: 200px;
+}
+
+header .cart img {
+    width: 50px;
+    height: 60px;
+    margin-left: 1500px;
+    margin-top: -150px;
+}
+
+header .menu img{
+    scale: 25%;
+    margin-left: 1350px;
+    margin-top: -110px;
+}
+/* Design for the middle bar, filter bar and product rows */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #7068d0;
+    font-size: 40px;
+}
+
+main input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #7068d0;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+}
+
+.filters {
+    background-color:#7068d0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.filters h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.filters ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filters li {
+    margin: 5px 0;
+    color:#ffffff;
+    font-size: 18px;
+}
+
+.filters button{
+    background-color:#e086d3;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+.product {
+    background-color: #f0f0ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0 0;
+    color: #333;
+}
+
+/* Footer Styles */
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
